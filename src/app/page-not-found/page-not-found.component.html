@@ -1,11 +1,18 @@
 <mat-progress-bar mode="determinate" value="100"></mat-progress-bar>
-<div class="container">
+<mat-toolbar >
+  <mat-toolbar-row>
+    <span>STARTWARE</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div class="container mt-5">
   <mat-card>
-    <mat-card-header>
+    <mat-card-header fxLayout="row">
       <mat-card-title>
         404 Page not found
-        <button mat-raised-button color="primary" routerLink="">Back</button>
       </mat-card-title>
+      <div fxFlex></div>
+      <button mat-raised-button color="primary" routerLink="">Back</button>
     </mat-card-header>
   </mat-card>
 </div>
